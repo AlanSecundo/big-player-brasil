@@ -1,4 +1,6 @@
-## [https://big-player-brasil.netlify.app/](Clique aqui e acesse a DEMO)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/abe43efb-8a28-40d7-beeb-2e86bff3f4bd/deploy-status)](https://app.netlify.com/sites/big-player-brasil/deploys)
+
+## [Clique aqui e acesse a DEMO](https://big-player-brasil.netlify.app/)
 
 ## Primeiros passos:
 

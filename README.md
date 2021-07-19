@@ -1,3 +1,5 @@
+## [https://big-player-brasil.netlify.app/](Clique aqui e acesse a DEMO)
+
 ## Primeiros passos:
 
 Logo após clonar o projeto, siga os seguintes passos abaixo:
@@ -15,8 +17,11 @@ Irá rodar a aplicação em "develop mode" normalmente no link: [http://localhos
 ### Tipos de acesso:
 
 Existem dois tipos de usuários na aplicação, um deles corresponde aos candidatos, outro aos avaliadores, para 
-acessar como um candidato, basta utilizar um nome de usuário chamado 'login' em seguida de um número entre 5 e 50 e utilizar a senha 123.
-Exemplo: (login: login 10) (senha: 123)
+acessar como um candidato, basta utilizar um nome de usuário chamado 'login' em seguida de um número entre 5 e 50, a senha será 'password {número corrrespondente ao do login}.
+
+Exemplos: (login: login 10) (senha: password 10), (login: login 23) (senha: password 23)
+
+Sim, a senha e o login tem espaço, pois eles foram gerador automáticamente pela ferramenta de mock da API.
 
 Já para acessar como avaliador, basta passar as seguintes credenciais: (login: avaliador), (senha: 123).
 

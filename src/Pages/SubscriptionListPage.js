@@ -43,8 +43,6 @@ const SubscriptionListPage = () => {
             arrayUpdated[subscriptionIndex] = data;
 
             setSubscriptionList(arrayUpdated);
-
-            console.log(arrayUpdated);
         })
     }
 

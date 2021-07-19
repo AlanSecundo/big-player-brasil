@@ -25,9 +25,9 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route path={LOGIN_ROUTE} children={() => createChildren(<LoginPage />)} />
-          <Route path={SUBSCRIPTION_ROUTE} children={() => createChildren(<SubscriptionPage />)} />
-          <Route path={LIST_SUBSCRIPTIONS_ROUTE} children={() => createChildren(<SubscriptionListPage />)} />
+          <Route path={LOGIN_ROUTE} exact children={() => createChildren(<LoginPage />)} />
+          <Route path={SUBSCRIPTION_ROUTE} exact children={() => createChildren(<SubscriptionPage />)} />
+          <Route path={LIST_SUBSCRIPTIONS_ROUTE} exact children={() => createChildren(<SubscriptionListPage />)} />
         </Switch>
       </Router>
     </div>

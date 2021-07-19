@@ -1,0 +1,26 @@
+.subscription__form {
+    width: 50%;
+    display: column;
+    align-items: center;
+    text-align: center;
+}
+
+.subscription__row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.subscription__button {
+    width: 50%;
+}
+
+.subscription__successful {
+    text-align: center;
+}
+
+a {
+   color: black !important;
+   text-decoration: underline !important;
+}

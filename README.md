@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+## Primeiros passos:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Logo após clonar o projeto, siga os seguintes passos abaixo:
 
-## Available Scripts
+### `yarn install`
 
-In the project directory, you can run:
+Irá instalar todas as dependências do projeto.
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Irá rodar a aplicação em "develop mode" normalmente no link: [http://localhost:3000](http://localhost:3000).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Acessos
 
-### `yarn test`
+### Tipos de acesso:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Existem dois tipos de usuários na aplicação, um deles corresponde aos candidatos, outro aos avaliadores, para 
+acessar como um candidato, basta utilizar um nome de usuário chamado 'login' em seguida de um número entre 5 e 50 e utilizar a senha 123.
+Exemplo: (login: login 10) (senha: 123)
 
-### `yarn build`
+Já para acessar como avaliador, basta passar as seguintes credenciais: (login: avaliador), (senha: 123).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Escopo futuro:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Responsividade: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Atualmente, o projeto não é responsivo para dispositivos móveis, algo que será resolvido através do uso de media queries e adaptações no CSS.
 
-### `yarn eject`
+### Visual:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Essa é uma versão MVP da aplicação, a intenção é que a UI seja melhorada com o tempo.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Importante
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O formato e lógica utilizado no login e em outras partes da aplicação, onde damos um GET na lista toda para recuperar apenas 1 elemento, só é utilizado devido ao MOCK da API que não nos fornece uma rota de verificação ou de login específica. Em projetos profissionais, essa abordagem jamais seria utilizada.

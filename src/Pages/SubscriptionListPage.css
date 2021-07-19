@@ -1,0 +1,49 @@
+.list__card {
+    margin-top: 20px !important;
+    min-width: 25%;
+    border-radius: 15px !important;
+}
+
+.list__row {
+    display: flex;
+    margin-top: 16px;
+}
+
+.status__APROVED {
+    background-color: #4BB543 !important;
+}
+
+.status__REFUSED {
+    background-color: #E53935 !important;
+}
+
+.status__TO_AVALIATION {
+    background-color: #fdfdfd !important;
+}
+
+.aprove__button {
+    background-color: #4BB543 !important;
+    color: #fff !important;
+    width: 100%;
+}
+
+.reprove__button {
+    background-color: #E53935 !important;
+    color: #fff !important;
+    width: 100%;
+}
+
+.list__container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 8px;
+    column-gap: 16px;
+    margin-bottom: 32px;
+}
+
+.exit_button {
+    position: absolute !important;
+    right: 15px;
+    top: 15px;
+}
